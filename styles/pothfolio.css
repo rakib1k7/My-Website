@@ -7,9 +7,12 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-section{
+header{
     background-color:#FFF8F3 ;
     padding-top: 51px;
+    background: url(/images/developer.png), url(/images/header_bg.png), #FFF8 ;
+    background-position: top left , bottom right;
+    background-repeat: no-repeat;
 }
 nav{
     width: 1140px;
@@ -46,4 +49,44 @@ nav li{
     color: white;
     font-size: 20px;
     border: none;
+    cursor: pointer;
+    
+}
+
+.banner{
+    margin-left: 215px;
+    margin-right: 53px;
+    display: flex;
+}
+.banner-content{
+    max-width: 585px;
+
+}
+.banner-content{
+    margin-top: 145px ;
+    margin-bottom: ;
+    margin-right:200px ;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content h3{
+    color: #474747;
+    font-size: 45px;
+    margin-top: 5px;
+
+}
+.banner-content h1{
+    color: black;
+    font-size: 65px;
+    margin-top: 20px;
+}
+.banner-content p{
+    color: #757575;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner-image img{
+    max-width: 584px;
+    vertical-align: middle;
 }
