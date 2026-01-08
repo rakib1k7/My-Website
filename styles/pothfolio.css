@@ -90,3 +90,35 @@ nav li{
     max-width: 584px;
     vertical-align: middle;
 }
+#about{
+    padding-top: 130px;
+}
+#about .section-container{
+    width: 1140px;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 131px 156px;
+}
+#about .section-container{
+    background-color: #FFF8F3;
+}
+#about .section-heading h2{
+    font-size: 35px;
+    margin-top: 30px;
+}
+#about .section-heading p{
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+#about .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card{
+    font-size: 20px;
+    color: #757575;
+
+}
